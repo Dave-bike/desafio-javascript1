@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/galaxy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    border-radius: 10px;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    color: white;
+    background-color: black;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    align-items: center;
+    gap: 4px;
+    border-radius: 5px;
+}
+
+.card-image {
+    width: 170px;
+    height: 170px;
+
+}
+
+h6 {
+    margin-top: 5px;
+}
+
+input {
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.result {
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 50px;
+    background-color: green;
+}
+
+.result-section {
+    color: aquamarine;
+    background-color: rgba(128, 128, 128, 0.503);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    gap: 5px;
+}
+
+.circle {
+    display: inline-block;
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+}
+

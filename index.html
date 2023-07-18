@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <img class="card-image" src="./assets/img/rc390.jpg" alt="ktmrc390" />
+        <h6>Ktm RC390</h6>
+        <input id="quantity" placeholder="Ingrese cantidad" type="number" />
+        <input id="color" placeholder="Color" type="text" />
+        <p class="price-text">$ <span id="price">5390000</span></p>
+        <button class="result" onclick="result()">Total</button>
+      </section>
+      <section class="result-section">
+        <p>Total : $<span id="total-value"></span></p>
+        <p>Cantidad :<span id="total-quantity"></span></p>
+        <p>color :<span class="circle" id="final-color">   </span></p>
+      </section>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
